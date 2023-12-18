@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-hy=ws24b%5^d@+zv+7kf-ldq6t5)e8egfx2ka@sc9#0^t327_w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -126,3 +126,4 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 AUTH_USER_MODEL = "auth_api.CustomUser"
+# APPEND_SLASH = False
